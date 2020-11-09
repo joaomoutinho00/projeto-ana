@@ -1,0 +1,38 @@
+.titulo{
+    text-align: center;
+    margin-left: 45vw;
+    margin-top: 2vw;
+}
+
+.sansserif {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.texto{
+}
+
+.margem{
+    margin-left: 20vw;
+}
+
+.margem-bt{
+    margin-left: 73%;
+    margin-block-end: 20px;
+}
+
+@media (max-width:800px){
+    .margem-bt{
+        margin-left: 70%;
+        margin-block-end: 20px;
+    }
+
+    .titulo{
+        text-align: center;
+        margin-left: 8vw;
+        margin-top: 2vw;
+    }
+
+    .margem{
+        margin-left: 0vw;
+    }
+}

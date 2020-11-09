@@ -1,0 +1,102 @@
+<h3 class="titulo">
+    Mês a Mês
+</h3>
+<p class="sub-titulo">Pra cada mês que passamos juntos, 1 coisa que amo em ti, cada mês que ficarmos juntos a lista
+    aumenta.</p>
+<div class="margem-trexo">
+    <div class="">
+        <div class="col-md-6">
+            <div class="texto sansserif">
+                1-Teu sorriso<br />
+                2-Teu abraço<br />
+                3-Teu jeito<br />
+                4-Teus Olhos<br />
+                5-Teu beijo<br />
+                6-Jeito que segura minha mão<br />
+                7-Jeito que me coloca na linha<br />
+                8-Teu cafuné<br />
+                9- Tua risada<br />
+                10-Tua teimosia<br />
+                11-Teu realismo que me coloca no lugar<br />
+                12-Tua inteligência<br />
+                13-Tua dedicação as coisas que se propõem a fazer<br />
+                14-Tua presença (so por estar perto me alegra)<br />
+                15-Tu jeito brava (fica tao linda)<br />
+                16-Tua disponibilidade sempre que preciso<br />
+                17-Tu persistência em nunca desistir de mim<br />
+                18-Teu capricho com os presentes que me fizesse pra mim<br />
+                19-O jeito que tu me acalma quando meu mundo desaba<br />
+                20-Mesmo brava comigo, quer o meu melhor e não vira as costas pra mim<br />
+                21-Teu cheiro<br />
+                22-Tua inteligência, eis capaz de falar sobre tudo<br />
+                23-Tua bunda<br />
+                24-Teu foco no futuro<br />
+                25-O amor e o respeito que tens pelos teus pais<br />
+                26-O jeito que tu pede pra eu mexer no teu cabelo<br />
+                27-Teu jeito mandona<br />
+                28-Teu gosto (gosta de mim, né então amo teu gosto kkkk)<br />
+                29-Tua vozinha de bebe<br />
+                30-O jeito que tu corre que nem um pato kkkkk (brincadeirinha)<br />
+                31-Tua facilidade em fazer amigos<br />
+                32-Teu estilo de se vestir<br />
+                33-Tu de biquini (ai papai)<br />
+                34-O sexo que a gente faz<br />
+                35-Tu não ter frescura pra nada, sempre disposta a tudo<br /> <br/>
+                ** Comecei a fazer isso a um tempo atras pro nosso aniversário de 3 anos, mas acho que não vou ter a oportunidade de te dar esse presente, então dou agora.
+            </div>
+        </div>
+    </div>
+</div>
+<h3 class="titulo">
+    Poema que escrevi pra ti
+</h3>
+<div class="margem-trexo">
+    <div class="">
+        <div class="col-md-6">
+            <div class="texto sansserif">
+                Seu cabelo cor de ouro mostra suas riquezas.<br />
+                Seus olhos me dominam como o mar agitado domina o melhor pescador.<br />
+                Sem defeitos nem fraquezas.<br />
+                Seu olhar derruba qualquer lutador.<br /><br />
+
+                No seu sorriso mora a minha felicidade.<br />
+                E seu abraço é meu poço de tranquilidade.<br />
+                Quero estar contigo ate meu último ano de idade.<br />
+                Não deixo de você nem na maior tempestade.<br /><br />
+
+                Meu amor por ti é inexplicável.<br />
+                Viver sem ti é uma verdadeira calamidade.<br />
+                Mesmo com nossa teimosia implacável.<br />
+                Quero deixar nossa história pra prosperidade.<br /><br />
+
+                Nem o tamanho da galáxia se compara ao meu amor por você.<br />
+                E nem, quando estais longe, a minha saudade.<br />
+                Seu beijo doce,<br />
+                Me traz paz e tranquilidade.<br />
+                E depois disso tudo eu, tenho certeza.<br />
+                Que com você quero me casar e ficar juntos pra eternidade.<br />
+            </div>
+        </div>
+    </div>
+</div>
+<h3 class="titulo">
+    Trexos de Poemas e Músicas
+</h3>
+<div class="margem-trexo">
+    <div class="">
+        <div class="col-md-6" *ngFor="let d of data">
+            <div>
+                <div class="texto sansserif">
+                    {{d.str_trexo}}
+                </div>
+                <div class="tx-autor sansserif">
+                    {{d.str_autor}}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div>
+    <button [routerLink]="['/fotos']" routerLinkActive="router-link-active" class="btn btn-secondary margem-bt"
+        type="button">Proxima página</button>
+</div>

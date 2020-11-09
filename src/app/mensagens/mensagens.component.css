@@ -1,0 +1,45 @@
+.margem{
+    margin-left: 10vw;
+}
+
+.margem-audio{
+    margin-right: 2vw;
+    margin-top: 2vw;
+    margin-block-end: 2vw;
+}
+
+.btn-audio{
+    background-color: #563d7c;
+    color: white;
+}
+
+.titulo{
+    margin-left: 35vw;
+}
+
+.subtitulo{
+    margin-left: 30vw;
+    color: gray;
+}
+
+.margem-bt{
+    margin-left: 90%;
+    margin-block-end: 20px;
+}
+
+@media (max-width:800px){
+    .titulo{
+        margin-left: 10vw;
+    }
+
+    .subtitulo{
+        margin-left: 10vw;
+        color: gray;
+    }
+
+    .margem-bt{
+        margin-left: 70%;
+        margin-block-end: 20px;
+    }
+    
+}

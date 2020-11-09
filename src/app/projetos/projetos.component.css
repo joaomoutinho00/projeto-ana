@@ -1,0 +1,45 @@
+.card-estrutura{
+    border: gray;
+}
+
+.margem{
+    margin-top: 2vw;
+    margin-left: 1vw;
+    margin-block-end: 2vw;
+    margin-right: 1vw;
+}
+
+.shadow{
+    border-radius: 16px;
+    box-shadow: 10px 10px 5px rgb(165, 164, 164);
+}
+
+.margem-bt{
+    margin-left: 70%;
+    margin-block-end: 20px;
+}
+
+.titulo{
+    text-align: center;
+    margin-left: 36vw;
+    margin-top: 2vw;
+}
+
+.sansserif {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (max-width:800px){
+    .titulo{
+        text-align: center;
+        margin-left: 5vw;
+        margin-top: 2vw;
+    }
+
+    .margem{
+        margin-top: 2vw;
+        margin-left: 5vw;
+        margin-block-end: 2vw;
+        margin-right: 1vw;
+    }
+}

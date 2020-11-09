@@ -1,0 +1,34 @@
+
+.fundo{
+    background-color: #563d7c;
+    height: 30vw;
+    width: 100%;
+}
+
+.margem{
+    margin-left: 3vw;
+    margin-top: 2vw;
+}
+
+.sansserif {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.color{
+    color: white;
+    margin-top: 15px;
+}
+
+@media (max-width:800px){
+    .fundo{
+        background-color: #563d7c;
+        height: 90%;
+        width: 100%;
+        border: 0px;
+    }
+
+    .margem{
+        margin-left: 7vw;
+        margin-top: 2vw;
+    }
+}
